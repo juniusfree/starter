@@ -11,3 +11,9 @@ vim.keymap.set("n", "<C-d>", "<C-d>0zz")
 -- put the next search result in the center
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
+
+-- reassign copilot accept keymap to <C-j>
+vim.g.copilot_no_tab_map = true
+vim.keymap.set("i", "<M-l>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
+vim.keymap.set("i", "<M-j>", "<Plug>(copilot-next)", {})
+vim.keymap.set("i", "<M-k>", "<Plug>(copilot-previous)", {})
