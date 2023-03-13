@@ -3,3 +3,6 @@
 -- Add any additional options here
 
 vim.opt.scrolloff = 10
+
+-- turn off mouse support
+vim.opt.mouse = ""
