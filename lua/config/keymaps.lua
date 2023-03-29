@@ -29,3 +29,6 @@ vim.keymap.set("v", "<Up>", "<nop>")
 vim.keymap.set("v", "<Down>", "<nop>")
 vim.keymap.set("v", "<Left>", "<nop>")
 vim.keymap.set("v", "<Right>", "<nop>")
+
+-- aerial
+vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")

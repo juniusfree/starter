@@ -6,3 +6,5 @@ vim.opt.scrolloff = 10
 
 -- turn off mouse support
 vim.opt.mouse = ""
+
+vim.o.termguicolors = true
